@@ -88,7 +88,8 @@ main {
 
 .intro,
 .pricing,
-.policy {
+.policy,
+.contact {
   text-align: center;
 }
 
@@ -154,6 +155,18 @@ ul li:before {
   font-size: 1.5rem;
   font-weight: 700;
   color: #00c4b4;
+}
+
+.contact .email a {
+  color: #00c4b4;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact .email a:hover {
+  color: #00a89a;
 }
 
 /* Footer */
